@@ -58,7 +58,6 @@ mv bbb_* video
 
 sudo mv video /var/www/html
 
-sudo python testTopo.py
 
 
 ###
