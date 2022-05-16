@@ -19,8 +19,8 @@ def myNetwork():
     h2 = net.addHost('h2')
 
     info('*** Add links with Qos Params \n')
-    net.addLink(h1, s1, cls=TCLink, bw=3, delay='1ms')
-    net.addLink(h2, s1, cls=TCLink, bw=3, delay='1ms')
+    net.addLink(h1, s1, cls=TCLink, bw=5, delay='1ms')
+    net.addLink(h2, s1, cls=TCLink, bw=5, delay='1ms')
 
     info('***Starting Network \n')
     net.start()
